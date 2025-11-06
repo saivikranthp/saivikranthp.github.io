@@ -1,11 +1,112 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My GitHub Pages Site</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
-    <p>You can find my recent blogs at <a href="Are_All_Crystals_Clear__.html">here</a>.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Vikranth Pendem | Blog</title>
+  <style>
+    body {
+      font-family: "Inter", "Segoe UI", sans-serif;
+      background: #f9f9fb;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+      color: #333;
+    }
+
+    .blog-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .blog-list li {
+      background: white;
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .blog-list li:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    .blog-list a {
+      text-decoration: none;
+      color: #0077b6;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: #777;
+      border-top: 1px solid #ddd;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      main {
+        margin: 2rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sai Vikranth Pendem</h1>
+    <p>Exploring Science, Technology & Ideas</p>
+  </header>
+
+  <main>
+    <h2>Recent Blog Posts</h2>
+    <ul class="blog-list">
+      <li>
+        <a href="Are_All_Crystals_Clear__.html">All Crystals Are Clear?</a>
+        <p style="margin-top: 0.5rem;">A deep dive into why not all crystals are transparent and the fascinating physics behind them.</p>
+        <p style="color:#555; font-size:0.9rem;">November 6, 2025</p>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    © 2025 Sai Vikranth Pendem — Built using GitHub Pages
+  </footer>
+</body>
 </html>
